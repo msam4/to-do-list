@@ -8,7 +8,10 @@
 }
 
 body {
-  background: #8758ff;
+  background-image: url("../public/legal_pad.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +28,7 @@ h1 {
 }
 
 .TodoWrapper {
-  background: #1A1A40;
+  background: #5B3612;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -39,7 +42,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #F6F5AA;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -48,12 +51,13 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color: #ffffffca;
 }
 
 .todo-btn {
-  background: #8758ff;
-  color: #fff;
+  background: #F6F5AA;
+  color: #000000;
+  font-weight: bold;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
@@ -63,8 +67,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
-  color: #fff;
+  background: #F6F5AA;
+  color: #000000;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -75,13 +79,15 @@ h1 {
 }
 
 .incompleted {
-  color: #fff;
+  color: #000000;
   cursor: pointer;
 }
 
 .completed {
-  color: #c5aeff;
+  color: #000000;
   text-decoration: line-through;
+  text-decoration-color: #F7A38D;
+  text-decoration-thickness: 3.5px;
   cursor: pointer;
 }
 
