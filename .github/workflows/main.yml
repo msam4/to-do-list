@@ -36,7 +36,7 @@ jobs:
         run: npm run build
         env:
           PUBLIC_URL: /to-do-list
-      - name: to-do list
+      - name: to-do-list
         uses: actions/to-do-list@v1
         with:
           path: './build'
